@@ -70,6 +70,9 @@ section {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	position: absolute;
+    left: 0;
+    top: 0;
 }
 
 header {
@@ -850,7 +853,7 @@ h4.show_coupon {
 }
 
 .featured_grad {
-	background-image: url("./../img/coupon_img.jpg") !important;
+	/* background-image: url("./../img/coupon_img.jpg") !important; */
 }
 
 /* Category List */
@@ -2122,14 +2125,16 @@ h4.show_coupon {
 	max-width: 100%;
 	width: 100% !important;
 	height: 150px;
-	background: #3333337a;
+	background: #000;
 	background-blend-mode: multiply;
 	transition: all .5s ease;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
-
+.resp_img img {
+	opacity: 0.7;
+}
 .date_box-c {
 	position: absolute;
 	box-shadow: 0 3px 10px #00000014;
@@ -2301,7 +2306,6 @@ h4.show_coupon {
 
 .blog_img-box {
 	width: 100%;
-	min-height: 220px;
 	background-size: cover;
 	background-position: 50%;
 	background-repeat: no-repeat;
@@ -2397,6 +2401,7 @@ h4.show_coupon {
 	border-radius: 5px;
 	height: 100%;
 	position: absolute;
+	overflow: hidden;
 }
 
 .lpi_content {
@@ -2731,6 +2736,14 @@ img.avatar_img {
 	width: 80px;
 	box-shadow: 0px 0px 5px 0px #0000001f;
 	padding: 5px;
+	position: relative;
+	overflow:hidden;
+}
+.lts_blog-image.lazy-lts img{
+	position: absolute;
+    width: 150%;
+    left: -20px;
+    top: 0px;
 }
 
 .ftr_blg_content {

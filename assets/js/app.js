@@ -18,11 +18,11 @@ $('.input').bind('keyup', function() {
 
 
 // Featured Offer 
-var list4 = $('.featured_grad');
-for (var i = 0; i < list4.length; i++) {
-    var srcImg = list4[i].getAttribute('data-bg');
-    list4[i].style.backgroundImage = "url('" + srcImg + "')";
-};
+// var list4 = $('.featured_grad');
+// for (var i = 0; i < list4.length; i++) {
+//     var srcImg = list4[i].getAttribute('data-bg');
+//     list4[i].style.backgroundImage = "url('" + srcImg + "')";
+// };
 
 
 // FAQs
